@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
 import Header from '../Header';
-import MainEnglish from '../Main/MainEnglish';
-import MainGerman from '../Main/MainGerman';
+import NavEnglish from '../Main/MainEnglish';
+import NavGerman from '../Main/MainGerman';
+import Main from '../Main';
 import Footer from '../Footer';
 
 class App extends Component {
@@ -25,11 +26,12 @@ class App extends Component {
         <Header
           toggleLanguage={this.toggleLanguage}
         />
-        <div className="middle">
-          {this.state.english ? <MainEnglish /> :
-            <MainGerman />}
-        </div>
+        <div className="main">
+          {this.state.english ? <NavEnglish /> :
+            <NavGerman />}
+        <Main />
         <Footer />
+        </div>
       </div>
     )
     
