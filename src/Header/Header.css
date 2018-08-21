@@ -1,0 +1,96 @@
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid white;
+}
+
+.name-button-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name {
+  font-size: 45px;
+  margin-left: 5%;
+  color: white;
+}
+
+.linkContainer {
+  grid-column: 2 / 3;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-right: 2%;
+}
+
+.github {
+  height: 90%;
+  width: auto;
+}
+
+.github:hover {
+  height: 100%;
+}
+
+.linkedin {
+  margin: 2px 0px 10px 20px;
+  height: 86%;
+  width: auto;
+}
+
+.linkedin:hover {
+  height: 96%;
+}
+
+.language-container {
+  height: 100%;
+  display: flex;
+  width: 80px;
+  align-items: center;
+}
+
+.language-button {
+  height: 20px;
+  border: none;
+  background: none;
+}
+
+.language {
+  height: 20px;
+  width: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .name-button-container {
+    flex-direction: column;
+  }
+  .name {
+    font-size: 30px;
+    margin: 10px;
+  }
+  .linkContainer {
+    height: 100%;
+    margin-top: 0;
+  }
+
+  .language-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+  }
+}

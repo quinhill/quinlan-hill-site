@@ -1,0 +1,65 @@
+.small {
+  max-height: calc(100vh - 375px);
+}
+
+.project-container {
+  padding-left: 30px;
+  margin-bottom: 20px;
+}
+
+.project-link {
+  text-decoration: none;
+  color: white;
+}
+
+.project-link:hover {
+  color: #878686;
+}
+
+.project-title {
+  text-decoration: underline;
+}
+
+.project-description {
+  color: white;
+  margin-bottom: 15px;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.project-img {
+  height: 200px;
+  width: auto;
+  border: 1px solid white;
+  box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, 0.5)
+}
+
+.weatherly-link {
+  color: #6f6e6e;
+  text-decoration: none;
+}
+
+.weatherly-link:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 750px) {
+  .projects {
+    height: calc(100vh - 250px);
+  }
+  .small {
+    height: calc(100vh - 450px);
+  }
+}
+
+@media only screen and (max-width: 602px) {
+  .projects {
+    height: calc(100vh - 330px);
+  }
+  .small {
+    height: calc(100vh - 490px);
+  }
+}
