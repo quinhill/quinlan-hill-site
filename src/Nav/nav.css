@@ -20,17 +20,18 @@ nav {
   display: flex;
   justify-content: center;
   text-decoration: none;
-  width: calc(100% - 40px);
+  width: 350px;
   border: none;
   background: none;
   color: #ffffff;
+  font-size: 20px;
   font-weight: 100;
   padding: 20px;
 }
 
 .nav:hover {
   overflow: hidden;
-  width: calc(100% - 40px);
+  width: 350px;
   text-transform: uppercase;
   color: #3C887E;
   background: rgba(255, 255, 255, .7);
@@ -40,8 +41,9 @@ nav {
 }
 
 .active {
+  outline: none;
   overflow: hidden;
-  width: calc(100% - 40px);
+  width: 350px;
   text-transform: uppercase;
   color: #3C887E;
   background: rgba(255, 255, 255, .7);

@@ -33,7 +33,7 @@ const Aside = (props) => {
           <img className="language" alt="german" src="/germany.svg" />
         </button>
       </div>
-      <Nav />
+      <Nav toDisplay={props.toDisplay}/>
     </aside>
   )
 }

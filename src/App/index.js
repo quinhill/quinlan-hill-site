@@ -7,23 +7,28 @@ class App extends Component {
   constructor() {
     super()
     this.state = {
-      english: true
+      display: 'bio'
     }
   }
 
-  toggleLanguage = () => {
-    this.setState({
-      english: !this.state.english
-    })
+  // toggleLanguage = () => {
+  //   this.setState({
+  //     english: !this.state.english
+  //   })
+  // }
+
+  toDisplay = (id) => {
+    this.setState({ display: id })
   }
 
   render() {
     return (
       <div className="App">
         <Aside
+          toDisplay={this.toDisplay}
           toggleLanguage={this.toggleLanguage}
         />
-        <Main />
+        <Main props={this.state}/>
       </div>
     )
     
