@@ -9,7 +9,7 @@
 
 .project-link {
   text-decoration: none;
-  color: white;
+  color: #6B6D76;
 }
 
 .project-link:hover {
@@ -21,7 +21,7 @@
 }
 
 .project-description {
-  color: white;
+  color: #6B6D76;
   margin-bottom: 15px;
 }
 
