@@ -1,0 +1,26 @@
+.resume {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.resume-img {
+  height: 279mm;
+  width: 216mm;
+  margin-bottom: 20px;
+}
+
+.download-resume {
+  margin-bottom: 20px;
+}
+
+.download-resume a {
+  color: #424243;
+  margin: 0px 5px 0px 5px;
+}
+
+.download-resume a:hover {
+  color: #878686;
+}
+

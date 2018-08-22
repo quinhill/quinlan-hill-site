@@ -3,7 +3,7 @@ aside {
   display: grid;
   grid-template-rows: 5% 45% 50%;
   height: 100vh;
-  width: 250px;
+  width: 350px;
   background-color: #3C887E;
   border-bottom: 1px solid white;
 }
@@ -31,8 +31,8 @@ aside {
 
 .occupation {
   font-size: 15px;
+  font-weight: 100;
   margin: 10px;
-  font-style: italic;
 }
 
 .linkContainer {

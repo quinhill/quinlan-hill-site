@@ -1,3 +1,9 @@
+.address {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
 p {
   margin: 0;
   color: #6B6D76;
@@ -7,27 +13,23 @@ p {
 .email {
   margin-right: 20px;
   text-decoration: none;
-  color: rgb(171, 171, 171);
-}
-
-span {
-  color: rgba(250, 250, 250, 1)
-}
-
-.phone {
   color: #6B6D76;
   margin-left: 5px;
 }
 
-footer a:hover {
-  text-decoration: underline;
+span {
+  color: #6B6D76;
+  display: block;
+  margin-bottom: 20px;
 }
 
-@media only screen and (max-width: 850px) {
-  footer {
-    background-color: black;
-    height: 100px;
-    flex-direction: column;
-    align-items: center;
-  }
+.link {
+  margin-left: 5px;
+  text-decoration: none;
+  color: #424243;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: #878686;
 }

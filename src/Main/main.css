@@ -1,5 +1,11 @@
 .main {
   grid-column: 2 / 3;
-  height: 100vh;
+  height: calc(100vh - 50px);
   overflow: scroll;
+  padding: 50px 200px 20px 100px;
+  min-width: 600px;
+}
+
+a {
+  color: #424243;
 }

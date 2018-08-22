@@ -5,7 +5,8 @@
   background-size: cover;
   color: #EFF2F2;
   display: grid;
-  grid-template-columns: 250px calc(100% - 250px);
+  grid-template-columns: 350px calc(100% - 350px);
+  letter-spacing: 1px;
 }
 
 
@@ -13,20 +14,5 @@
   .middle {
     display: grid;
     grid-template-columns: 100%;
-  }
-}
-
-@media only screen and (max-width: 850px) {
-  .middle {
-    height: calc(100vh - 170px);
-  }
-}
-
-@media only screen and (max-width: 470px) {
-  .App {
-    background-size: stretch;
-  }
-  .middle {
-    height: calc(100vh - 155px);
   }
 }
