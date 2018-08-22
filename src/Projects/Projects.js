@@ -1,13 +1,10 @@
 import React from 'react';
 import './projects.css';
 
-const ProjectsEng = (props) => {
-  
-  let name;
-  props.bio || props.bioHover ? name = 'small' : name = 'large';
+const Projects = () => {
 
   return (
-    <div className={`${name} projects`} >
+    <div className="projects" >
       <div className="project-container">
         <a
           target="_blank"
@@ -113,4 +110,4 @@ const ProjectsEng = (props) => {
   )
 }
 
-export default ProjectsEng;
+export default Projects;

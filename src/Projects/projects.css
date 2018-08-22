@@ -1,5 +1,5 @@
-.small {
-  max-height: calc(100vh - 375px);
+.projects {
+  grid-column: 2 / 3;
 }
 
 .project-container {

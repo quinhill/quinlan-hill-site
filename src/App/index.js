@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
-import Header from '../Header';
-import NavEnglish from '../Main/MainEnglish';
-import NavGerman from '../Main/MainGerman';
-import Main from '../Main';
+import Aside from '../Aside';
+import Bio from '../Bio/Bio';
+import Projects from '../Projects/Projects';
 import Footer from '../Footer';
+import Resume from '../Resume';
+import Skills from '../Skills';
+import Contact from '../Contact';
+import { Route, Switch } from 'react-router-dom';
 
 class App extends Component {
   constructor() {
@@ -23,15 +26,17 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header
+        <Aside
           toggleLanguage={this.toggleLanguage}
         />
-        <div className="main">
-          {this.state.english ? <NavEnglish /> :
-            <NavGerman />}
-        <Main />
-        <Footer />
-        </div>
+        <Switch>
+          <Route path="/" component={Bio} />
+          <Route exact path="/bio" component={Bio} />
+          <Route exact path="/projects" component={Projects} />
+          <Route exact path="/resume" component={Resume} />
+          <Route exact path="/skills" component={Skills} />
+          <Route exact path="/contact" component={Contact} />
+        </Switch>
       </div>
     )
     

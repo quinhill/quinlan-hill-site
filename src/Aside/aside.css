@@ -1,15 +1,15 @@
-header {
-  grid-row: 1 / 2;
-  width: 100%;
+aside {
+  grid-column: 1 / 2;
   display: grid;
-  grid-template-columns: 10% 80% 10%;
-  height: 250px;
+  grid-template-rows: 5% 45% 50%;
+  height: 100vh;
+  width: 250px;
   background-color: #3C887E;
   border-bottom: 1px solid white;
 }
 
 .name-button-container {
-  grid-column: 2 / 3;
+  grid-row: 2 / 3;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -17,15 +17,15 @@ header {
 }
 
 .profile-pic {
-  height: 100px;
+  height: 200px;
   width: auto;
   border-radius: 50%;
   border: 2px solid white;
-  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .name {
-  font-size: 30px;
+  font-size: 20px;
   margin: 0;
 }
 
@@ -62,13 +62,13 @@ header {
 }
 
 .language-container {
-  height: 100%;
+  grid-row: 1 / 2;
   width: 80px;
-  margin-top: 10%;
+  margin-top: 10px;
   margin-right: 2%;
   display: flex;
   align-items: flex-start;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 
 .language-button {

@@ -1,9 +1,10 @@
 import React from 'react';
-import './Header.css';
+import './aside.css';
+import Nav from '../Nav/Nav';
 
-const Header = (props) => {
+const Aside = (props) => {
   return (
-    <header>
+    <aside>
       <div className="name-button-container">
         <img className="profile-pic" src="profile.jpg" />
         <h1 className="name">QUINLAN HILL</h1>
@@ -32,8 +33,9 @@ const Header = (props) => {
           <img className="language" alt="german" src="/germany.svg" />
         </button>
       </div>
-    </header>
+      <Nav />
+    </aside>
   )
 }
 
-export default Header;
+export default Aside;

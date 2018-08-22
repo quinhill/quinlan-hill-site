@@ -1,9 +1,9 @@
 import React from 'react';
-import './Footer.css';
+import './contact.css';
 
 const Footer = () => {
   return (
-    <footer>
+    <div>
       <p className="contact-info">
         2402 S Corona St, 80210 Denver, CO
       </p>
@@ -18,7 +18,7 @@ const Footer = () => {
         download
         className="download-resume">
       download resume</a>
-    </footer>
+    </div>
   )
 }
 
