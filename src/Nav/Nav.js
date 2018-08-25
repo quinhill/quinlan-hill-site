@@ -8,9 +8,7 @@ class Nav extends Component {
     this.state = {
       bio: 'active',
       projects: '',
-      skills: '',
       resume: '',
-      contact: ''
     }
   }
 
@@ -49,24 +47,10 @@ class Nav extends Component {
         </button>
         <button
           onClick={this.toDisplay} 
-          id='skills' 
-          className={`nav ${this.state.skills}`}
-        >
-          Skills
-        </button>
-        <button
-          onClick={this.toDisplay} 
           id='resume' 
           className={`nav ${this.state.resume}`}
         >
           Résumé
-        </button>
-        <button
-          onClick={this.toDisplay} 
-          id='contact' 
-          className={`nav ${this.state.contact}`}
-        >
-          Contact
         </button>
       </nav>
     )

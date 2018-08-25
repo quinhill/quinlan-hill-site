@@ -4,7 +4,7 @@ import Nav from '../Nav/Nav';
 
 const Aside = (props) => {
   return (
-    <aside>
+    <div className="aside">
       <div className="language-container">
         <button
           className="language-button"
@@ -34,7 +34,7 @@ const Aside = (props) => {
         </div>
       </div>
       <Nav toDisplay={props.toDisplay}/>
-    </aside>
+    </div>
   )
 }
 
