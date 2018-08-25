@@ -6,7 +6,7 @@ const Bio = () => {
     <div className="bio-container">
       <div className="bio-text">
         <p className="text">
-          "I am A Frontend Developer based in Denver, CO. Although American, I grew up in Switzerland, and moved to Denver to pursue my love for tech. The information exchange and modernization that tech has allowed on a global scale has had a huge impact on me. That same impact led me to the Turing School of Software and  Design, where I've gone from a tech enthusiast, to a proficient coder in HTML, CSS, and JavaScript."
+          "I am A Front End Developer based in Denver, CO. Although I am American, I grew up in Switzerland, and moved to Denver to pursue my love for tech. The information exchange and modernization that tech has allowed on a global scale has had a huge impact on me. That same impact is what led me to the Turing School of Software and  Design, where I've gone from a tech enthusiast, to a strong coder in HTML, CSS, and JavaScript."
         </p>
       </div>
       <div className="skills-container">
@@ -28,30 +28,24 @@ const Bio = () => {
         </ul>
       </div>
       <div className="contact-container">
-      <div className="address">
-        <p className="contact-info">Address:</p>
-        <p className="contact-info">
-          2402 S Corona St, 80210 Denver, CO
-        </p>
+        <span>Phone:
+          <a 
+            className="link" 
+            href="tel:+17208094383"
+          >
+            (720) 809-4383
+          </a>
+        </span>
+        <span>
+          Email:
+          <a 
+            className="link"
+            href="mailto:quinlan@quinlanhill.com"
+          >
+            quinlan@quinlanhill.com
+          </a>
+        </span>
       </div>
-      <span>Phone:
-        <a 
-          className="link" 
-          href="tel:+17208094383"
-        >
-          (720) 809-4383
-        </a>
-      </span>
-      <span>
-        Email:
-        <a 
-          className="link"
-          href="mailto:quinlan@quinlanhill.com"
-        >
-          quinlan@quinlanhill.com
-        </a>
-      </span>
-    </div>
     </div>
   )
 }
