@@ -4,19 +4,19 @@ import './resume.css';
 const Resume = () => {
   return (
     <div className="resume">
-      <img className="resume-img" src="/quin-resume.jpg" />
+      <img className="resume-img" src="/quinlan_hill_resume.jpg" />
       <p className="download-resume">
-        Download résumé:
+        Open résumé:
         <a 
-          href="/quinlan-hill-resume-color.pdf" 
-          download
+          href="https://drive.google.com/file/d/1n0_umSyzOSV66OhPn6hscMBM18AdsIuT/view" 
+          target="_blank"
         >
           color
         </a>
         |
         <a 
-          href="/quinlan-hill-resume-grayscale.pdf" 
-          download
+          href="https://drive.google.com/file/d/1yb0Ko0y9KYaUcnwEbQlA0j8snXQq-yRN/view" 
+          target="_blank"
         >
           printer friendly (grayscale)
         </a>

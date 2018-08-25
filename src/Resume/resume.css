@@ -24,3 +24,13 @@
   color: #878686;
 }
 
+@media only screen and (max-width: 700px) {
+  .resume {
+    padding: 20px;
+  }
+
+  .resume-img {
+    height: 140mm;
+    width: 108mm;
+  }
+}

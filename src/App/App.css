@@ -10,9 +10,11 @@
 }
 
 
-@media only screen and (max-width: 935px) {
-  .middle {
-    display: grid;
-    grid-template-columns: 100%;
+@media only screen and (max-width: 700px) {
+  .App {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    max-width: 100%;
   }
 }

@@ -44,3 +44,9 @@
 .weatherly-link:hover {
   text-decoration: underline;
 }
+
+@media only screen and (max-width: 700px) {
+  .projects {
+    padding: 20px;
+  }
+}

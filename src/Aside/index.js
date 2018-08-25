@@ -5,6 +5,15 @@ import Nav from '../Nav/Nav';
 const Aside = (props) => {
   return (
     <aside>
+      <div className="language-container">
+        <button
+          className="language-button"
+          onClick={props.toggleLanguage}
+        >
+          <img className="language" alt="english" src="/united-states.svg" />
+          <img className="language" alt="german" src="/germany.svg" />
+        </button>
+      </div>
       <div className="name-button-container">
         <img className="profile-pic" src="profile.jpg" />
         <h1 className="name">QUINLAN HILL</h1>
@@ -23,15 +32,6 @@ const Aside = (props) => {
             <img src="/linked_in_logo.png" alt="linkedin" className="linkedin" />
           </a>
         </div>
-      </div>
-      <div className="language-container">
-        <button
-          className="language-button"
-          onClick={props.toggleLanguage}
-        >
-          <img className="language" alt="english" src="/united-states.svg" />
-          <img className="language" alt="german" src="/germany.svg" />
-        </button>
       </div>
       <Nav toDisplay={props.toDisplay}/>
     </aside>
