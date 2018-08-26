@@ -17,7 +17,7 @@ const Aside = (props) => {
       <div className="name-button-container">
         <img className="profile-pic" src="profile.jpg" />
         <h1 className="name">QUINLAN HILL</h1>
-        <h3 className="occupation">Front End Developer</h3>
+        <h3 className="occupation">Software Engineer</h3>
         <div className="linkContainer">
           <a 
             href="https://github.com/quinhill"

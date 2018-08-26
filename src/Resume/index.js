@@ -8,14 +8,14 @@ const Resume = () => {
       <p className="download-resume">
         Open résumé:
         <a 
-          href="https://drive.google.com/file/d/1n0_umSyzOSV66OhPn6hscMBM18AdsIuT/view" 
+          href="https://drive.google.com/file/d/1rZY1d1PSGv9LQ3Q2ELhQIknFrKy8wzO7/view" 
           target="_blank"
         >
           color
         </a>
         |
         <a 
-          href="https://drive.google.com/file/d/1yb0Ko0y9KYaUcnwEbQlA0j8snXQq-yRN/view" 
+          href="https://drive.google.com/file/d/12Yo8rbFo97EXS-agc_mKJ-u3abnO4xAt/view" 
           target="_blank"
         >
           printer friendly (grayscale)
