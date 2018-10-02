@@ -9,19 +9,19 @@ const Projects = () => {
         <a
           target="_blank"
           className="project-link"
-          href="https://github.com/quinhill/soccer-score"
-          alt="https://github.com/quinhill/soccer-score"
+          href="https://github.com/Awiedenman/rtd-mobile-app"
+          alt="link to RTD Mobile App"
         >
-          <h3 className="project-title">Soccer-Score</h3>
+          <h3 className="project-title">RTD-Mbile-App</h3>
         </a>
-        <p className="project-description">
-          This app is designed to let the user check on all the games being played on the day. The user is then able to click on either the game or one of the teams for more information on them. Within the team page, one can subsequently click on players for further details on the individual. Soccer-Scores was built in React, using Redux and the Thunks middleware to handle the async API fetch calls.
+        <p className="project-description">     
+          the RTD-Mobile-App addresses the lack of functionality of the actual mobile app that the RTD provides. Using the google Directions API and a Rails backend, the RTD-Mobile-App allows users to easily look for train and bus connections all over Denver. The user then has the ability to Add a route to their favorites, which renders a quick select button for that particular connection.
         </p>
         <div className="img-container">
           <img
-            alt="soccer-score"
+            alt="RTD Mobile app screenshot"
             className="project-img"
-            src="/soccer-scores.gif"
+            src="/rtd-screenshot.png"
           />
         </div>
       </div>
